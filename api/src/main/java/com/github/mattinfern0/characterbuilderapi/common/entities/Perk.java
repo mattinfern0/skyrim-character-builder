@@ -11,8 +11,8 @@ public class Perk {
     @Column(name = "id")
     private long id;
 
-    @Column(name = "internal_name")
-    private String internalName;
+    private String uuid;
+    private GamePerkSystem perkSystem;
 
     @Column(name = "display_name")
     private String displayName;
